@@ -6,5 +6,17 @@
   "editor.formatOnType": true,
   "editor.tabSize": 2,
   "errorLens.gutterIconsEnabled": true,
-  "cSpell.language": "en,nb"
+  "cSpell.language": "en,nb",
+  "VsCodeTaskButtons.tasks": [
+    {
+      "label": "$(server-process) Start dev server",
+      "task": "start server",
+      "tooltip": "🤖 Starter browser-sync og lytter etter endringer"
+    },
+    {
+      "label": "$(server-process) Stopp dev server",
+      "task": "stop server",
+      "tooltip": "🛑 Stopper browser-sync"
+    }
+  ]
 }
