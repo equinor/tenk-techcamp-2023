@@ -1,18 +1,29 @@
 {
   "image": "mcr.microsoft.com/devcontainers/javascript-node",
+  "forwardPorts": [3000, 3001],
+  "portsAttributes": {
+    "3000": {
+      "label": "Web server 1",
+      "onAutoForward": "notify"
+    },
+    "3001": {
+      "label": "Web server 2",
+      "onAutoForward": "notify"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
-		"codespaces-contrib.codeswing",
-		"vsls-contrib.codetour",
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"ms-vsliveshare.vsliveshare",
-		"blackgirlbytes.deploy-to-github-pages",
-		"tinkertrain.theme-panda",
-		"streetsidesoftware.code-spell-checker",
-		"ms-vscode.live-server"
-	]
+        "codespaces-contrib.codeswing",
+        "vsls-contrib.codetour",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vsliveshare.vsliveshare",
+        "blackgirlbytes.deploy-to-github-pages",
+        "tinkertrain.theme-panda",
+        "streetsidesoftware.code-spell-checker",
+        "ms-vscode.live-server"
+      ]
     }
   }
 }
