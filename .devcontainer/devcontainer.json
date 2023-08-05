@@ -3,18 +3,13 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "codespaces-contrib.codeswing",
-        "vsls-contrib.codetour",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "ms-vsliveshare.vsliveshare",
-        "blackgirlbytes.deploy-to-github-pages",
-        "tinkertrain.theme-panda",
-        "streetsidesoftware.code-spell-checker",
-        "ms-vscode.live-server"
-      ]
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"streetsidesoftware.code-spell-checker-norwegian-bokmal",
+		"usernamehw.errorlens"
+	]
     }
   },
   "postCreateCommand": "npm i -g browser-sync",
-  "postStartCommand": "npx http-server -p 3000"
+  "postStartCommand": "nohup bash -c 'browser-sync . --watch --port 3000 --no-ui --no-open &'"
 }

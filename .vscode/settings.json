@@ -4,5 +4,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "errorLens.gutterIconsEnabled": true,
+  "cSpell.language": "en,nb"
 }
