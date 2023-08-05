@@ -1,16 +1,5 @@
 {
   "image": "mcr.microsoft.com/devcontainers/javascript-node",
-  "forwardPorts": [3000, 3001],
-  "portsAttributes": {
-    "3000": {
-      "label": "Web server 1",
-      "onAutoForward": "notify"
-    },
-    "3001": {
-      "label": "Web server 2",
-      "onAutoForward": "notify"
-    }
-  },
   "customizations": {
     "vscode": {
       "extensions": [
