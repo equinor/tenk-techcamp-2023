@@ -1,23 +1,17 @@
 {
-
-    "extensions": [
-
-        "dbaeumer.vscode-eslint",
-
-        "esbenp.prettier-vscode",
-
-        "ms-vsliveshare.vsliveshare",
-
-        "blackgirlbytes.deploy-to-github-pages",
-
-        "tinkertrain.theme-panda",
-
+  "customizations": {
+    "vscode": {
+      "extensions": [
         "codespaces-contrib.codeswing",
-
         "vsls-contrib.codetour",
-
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vsliveshare.vsliveshare",
+        "blackgirlbytes.deploy-to-github-pages",
+        "tinkertrain.theme-panda",
         "streetsidesoftware.code-spell-checker"
-
-    ]
-
+      ]
+    }
+  }
 }
