@@ -11,5 +11,6 @@
     }
   },
   "postCreateCommand": "npm i -g browser-sync",
-  "postStartCommand": "nohup bash -c \"browser-sync start --server '.' --files '*.html, *.css, *.js' --port 3000 --no-ui --no-open &\" > server.log"
+  "postStartCommand": "server.sh"
+  //"postStartCommand": "nohup bash -c \"browser-sync start --server '.' --files '*.html, *.css, *.js' --port 3000 --no-ui --no-open &\" > server.log"
 }
