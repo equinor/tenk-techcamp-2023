@@ -10,8 +10,7 @@
       ]
     }
   },
-  "postCreateCommand": "npm i -g browser-sync; chmod u+x ./server.sh",
-  "postStartCommand": "./server.sh"
-  //"postStartCommand": "nohup ./server.sh > server.log"
+  "postCreateCommand": "npm i -g browser-sync",
+  "postStartCommand": "nohup ./server.sh > server.log"
   //"postStartCommand": "nohup bash -c \"browser-sync start --server '.' --files '*.html, *.css, *.js' --port 3000 --no-ui --no-open &\" > server.log"
 }
