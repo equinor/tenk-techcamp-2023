@@ -3,15 +3,16 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "codespaces-contrib.codeswing",
-        "vsls-contrib.codetour",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "ms-vsliveshare.vsliveshare",
-        "blackgirlbytes.deploy-to-github-pages",
-        "tinkertrain.theme-panda",
-        "streetsidesoftware.code-spell-checker"
-      ]
+		"codespaces-contrib.codeswing",
+		"vsls-contrib.codetour",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"ms-vsliveshare.vsliveshare",
+		"blackgirlbytes.deploy-to-github-pages",
+		"tinkertrain.theme-panda",
+		"streetsidesoftware.code-spell-checker",
+		"ms-vscode.live-server"
+	]
     }
   }
 }
