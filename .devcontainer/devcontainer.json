@@ -14,5 +14,7 @@
         "ms-vscode.live-server"
       ]
     }
-  }
+  },
+  "postCreateCommand": "npm i -g browser-sync",
+  "postStartCommand": "npx http-server -p 3000"
 }
