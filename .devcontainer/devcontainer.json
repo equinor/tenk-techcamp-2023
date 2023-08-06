@@ -10,7 +10,9 @@
 		"usernamehw.errorlens",
 		"spencerwmiles.vscode-task-buttons",
 		"raymondcamden.htmlescape-vscode-extension",
-		"wayou.vscode-todo-highlight"
+		"deque-systems.vscode-axe-linter",
+		"aaron-bond.better-comments",
+		"formulahendry.auto-rename-tag"
 	]
     }
   },

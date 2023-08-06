@@ -22,5 +22,6 @@
   "emmet.variables": {
     "lang": "no"
   },
-  "emmet.extensionsPath": ["./.emmet"]
+  "emmet.extensionsPath": ["./.emmet"],
+  "cSpell.words": ["Equinor"]
 }
