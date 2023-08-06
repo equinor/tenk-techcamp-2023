@@ -6,7 +6,7 @@
   "editor.formatOnType": true,
   "editor.tabSize": 2,
   "errorLens.gutterIconsEnabled": true,
-  "cSpell.language": "en,nb",
+  "cSpell.language": "nb,en",
   "VsCodeTaskButtons.tasks": [
     {
       "label": "$(server-process) Start dev server",
