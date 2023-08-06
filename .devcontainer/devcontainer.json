@@ -1,4 +1,5 @@
 {
+  /* spell-checker: disable */
   "image": "mcr.microsoft.com/devcontainers/javascript-node",
   "customizations": {
     "vscode": {
@@ -12,5 +13,6 @@
     }
   },
   "postCreateCommand": "npm i -g browser-sync"
+  // Decided to use tasks instead, easier to understand. Kept postStartCommand for later.
   //"postStartCommand": "nohup bash -c \"browser-sync start --server '.' --files '*.html, *.css, *.js' --port 3000 --no-ui --no-open &\" > server.log"
 }
