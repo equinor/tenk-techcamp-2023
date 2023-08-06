@@ -1,7 +1,48 @@
 html {
   font-family: var(--font-family);
+  box-sizing: border-box;
 }
 
+input,
+textarea,
 button {
-  background-color: lime;
+  font-family: inherit;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button-primary {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 5px;
+  border: none;
+  padding: var(--button-padding);
+  background-color: var(--button-primary-background);
+  color: var(--button-primary-text);
+}
+
+.button-primary:hover {
+  background-color: var(--button-primary-background-hover);
+}
+
+.preview {
+  border: 1px solid hsla(203, 50%, 30%, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.preview-component {
+  padding: 20px;
+}
+
+.preview-code {
+  color: white;
+  background: black;
+  padding: 10px 20px;
 }

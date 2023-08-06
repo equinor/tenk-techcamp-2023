@@ -1,4 +1,10 @@
 :root {
   --font-family: Lato, sans-serif;
-  --space-xl: 32px;
+  --button-primary-background: blue;
+  --button-primary-background-hover: purple;
+  --button-primary-text: #ffffff;
+  --button-padding: 10px 20px;
+  --font-size-medium: 16px;
+  --font-size-small: 14px;
+  --border-radius: 5px;
 }

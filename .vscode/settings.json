@@ -18,5 +18,9 @@
       "task": "stop server",
       "tooltip": "🛑 Stopper browser-sync"
     }
-  ]
+  ],
+  "emmet.variables": {
+    "lang": "no"
+  },
+  "emmet.extensionsPath": ["./.emmet"]
 }
