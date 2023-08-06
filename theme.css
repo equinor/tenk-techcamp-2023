@@ -1,5 +1,9 @@
 :root {
   --font-family: Lato, sans-serif;
+
+  /* todo: Jeg synes ikke denne button-fargen ble så fin. Kan du se om du finner en bedre?
+  Ta en titt i colors.css og se om du finner en du vil bruke istedenfor. */
+
   --button-primary-background: blue;
   --button-primary-background-hover: purple;
   --button-primary-text: #ffffff;
