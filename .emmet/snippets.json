@@ -1,10 +1,13 @@
 {
   "html": {
     "snippets": {
-      "ull": "ul>li[id=${1} class=${2}]*2{ Will work with html, pug, haml and slim }",
-      "oll": "<ol><li id=${1} class=${2}> Will only work in html </ol>",
-      "ran": "{ Wrap plain text in curly braces }",
-      "tenk:html": "html>{here be dragons!}"
+      "c:doctype": "<!-- something something doctype -->",
+      "c:html": "<!-- something something html -->",
+      "c:head": "<!-- something something body -->",
+      "c:body": "<!-- something something body -->",
+      "head": "c:doctype+head>meta[charset=${charset}]+meta:vp+title{${1:Document}}",
+      "doc": "html[lang=${lang}]>head+body",
+      "!|html:5": "c:doctype+!!!+doc"
     }
   },
   "css": {
