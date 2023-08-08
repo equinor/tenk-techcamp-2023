@@ -5,6 +5,7 @@
   --surface-alt: #f7f7f7;
 
   --font-family: Lato, sans-serif;
+
   --font-size-base: 16px;
   --line-height-base: 20px;
   --font-size-small: 14px;
@@ -12,10 +13,11 @@
   /* todo: Jeg synes ikke denne button-fargen ble så fin. Kan du se om du finner en bedre?
   Ta en titt i colors.css og se om du finner en du vil bruke istedenfor. */
 
-  --button-primary-background: var(--mossgreen-100);
-  --button-primary-background-hover: purple;
-  --button-primary-text: #ffffff;
   --button-padding: 10px 20px;
 
-  --border-radius: 5px;
+  --button-primary-background: #007079;
+  --button-primary-background-hover: purple;
+  --button-primary-text: #ffffff;
+
+  --border-radius: 4px;
 }
