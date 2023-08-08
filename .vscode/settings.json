@@ -32,5 +32,6 @@
     "repoet",
     "webp",
     "workshoppen"
-  ]
+  ],
+  "explorer.sortOrder": "type"
 }
