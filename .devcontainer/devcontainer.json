@@ -13,7 +13,9 @@
 		"deque-systems.vscode-axe-linter",
 		"aaron-bond.better-comments",
 		"formulahendry.auto-rename-tag",
-		"anteprimorac.html-end-tag-labels"
+		"anteprimorac.html-end-tag-labels",
+		"bierner.github-markdown-preview",
+		"seatonjiang.gitmoji-vscode"
 	]
     }
   },
