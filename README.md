@@ -2,20 +2,23 @@
 
 Hei 😊 Så kjekt at du vil hjelpe oss med å bli ferdig med komponentene våre sånn at vi rekker tidsfristen. I denne filen står det litt om hva du trenger å gjøre for å komme i gang.
 
+> [!NOTE]  
+> For voksne: Se START_HER.md i dev-branchen for informasjon om hvordan det er tenkt å gjennomføre workshoppen. 
+
 ## Kopier koden til din egen Github konto
 
 1. Klikk på **Use this template**
 2. Velg **Create a new repository**
 
-<img alt="" src="docs/use-this-template-button.webp" width="400">
+<img alt="" src="assets/use-this-template-button.webp" width="400">
 
 3. Bruk Owner dropdown menyen til å velge din egen konto
 
-<img alt="" src="docs/create-repository-owner.webp" width="400">
+<img alt="" src="assets/create-repository-owner.webp" width="400">
 
 4. Gi repoet ditt navnet **brukernavn.github.io**, der du bytter ut «brukernavn» med brukernavnet ditt på Github.
 
-<img alt="" src="docs/create-repository-name.webp" width="400">
+<img alt="" src="assets/create-repository-name.webp" width="400">
 
 5. Velg **Create repository from template**.
 
@@ -38,5 +41,3 @@ En ting som er viktig med Codespaces er å huske på at det er litt som å låne
 > [!IMPORTANT]  
 > TODO: Hvordan synke med Github
 
-> [!NOTE]  
-> For instruktører og bidragsytere, se dev-branchen. For deltakere, bare ignorer det du nettopp leste 😁
