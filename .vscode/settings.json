@@ -23,5 +23,5 @@
     "lang": "no"
   },
   "emmet.extensionsPath": ["./.emmet"],
-  "cSpell.words": ["Equinor", "repoet"]
+  "cSpell.words": ["Codespaces", "Equinor", "repoet", "webp"]
 }
