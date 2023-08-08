@@ -23,5 +23,13 @@
     "lang": "no"
   },
   "emmet.extensionsPath": ["./.emmet"],
-  "cSpell.words": ["Codespaces", "Equinor", "repoet", "webp"]
+  "cSpell.words": [
+    "branchen",
+    "Codespaces",
+    "Equinor",
+    "forhåndsvise",
+    "noen",
+    "repoet",
+    "webp"
+  ]
 }
