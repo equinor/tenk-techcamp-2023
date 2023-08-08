@@ -1,6 +1,7 @@
 {
   "html": {
     "snippets": {
+      "c:example": "<!--\nThis is an HTML comment\nYou can write text in a comment and the content won't be visible in the page\n-->",
       "c:doctype": "<!-- something something doctype -->",
       "c:html": "<!-- something something html -->",
       "c:head": "<!-- something something body -->",

@@ -15,6 +15,12 @@
 
   --button-padding: 10px 20px;
 
+  --color-primary: hsl(340, 52%, 53%);
+  --color-primary-darker: hsl(340, 52%, 43%);
+
+  --color-text-on-dark: white;
+  --color-text-on-light: #333;
+
   --button-primary-background: #007079;
   --button-primary-background-hover: purple;
   --button-primary-text: #ffffff;

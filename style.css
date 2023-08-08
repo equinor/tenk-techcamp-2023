@@ -29,13 +29,44 @@ button {
   border-radius: 5px;
   border: none;
   padding: var(--button-padding);
-  background-color: var(--button-primary-background);
-  color: var(--button-primary-text);
+  background-color: var(--color-primary);
+  color: var(--color-text-on-dark);
   text-decoration: none;
 }
 
 .button-primary:hover {
-  background-color: var(--button-primary-background-hover);
+  background-color: var(--color-primary-darker);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 400px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 24px;
+  display: grid;
+  grid-gap: 16px;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-text {
+  margin: 0;
+}
+
+.card-actions {
+  display: flex;
+  gap: 12px;
 }
 
 .preview {
@@ -43,11 +74,13 @@ button {
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0;
   border-radius: 5px;
   overflow: hidden;
-  background-color: var(--button-primary-background);
+  background-color: var(--surface-alt);
 }
 
 .preview-component {
   padding: 20px;
+  display: grid;
+  place-items: center;
 }
 
 .preview-code {
@@ -66,6 +99,27 @@ button {
 
 .top-bar {
   background-color: var(--surface-default);
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 1px solid #dcdcdc;
+  min-height: 64px;
+  position: sticky;
+  top: 0;
+}
+
+.top-bar-logo {
+  height: auto;
+  height: 24px;
+  color: #c54871;
+  width: 90px;
+}
+
+.top-bar-text {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 .main {
