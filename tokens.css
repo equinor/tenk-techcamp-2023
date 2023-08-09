@@ -48,12 +48,12 @@
     Bodil
   */
 
-  --bakgrunnsfarge: var(--fair-pink);
+  --bakgrunnsfarge: var(--ottoman);
   --bakgrunnsfarge-alt: var(--white);
-  --hoved-farge: var(--mulberry);
-  --hoved-farge-alt: var(--mulberry-dark);
-  --tittel-farge: var(--deep-blush);
-  --tittel-farge-alt: var(--amethyst);
+  --hoved-farge: var(--cello);
+  --hoved-farge-alt: var(--cello-dark);
+  --tittel-farge: var(--venice);
+  --tittel-farge-alt: var(--pirate-gold);
   --tekst-farge: var(--mine-shaft);
   --tekst-farge-alt: var(--white);
 
@@ -70,9 +70,6 @@
   --font-size-small: 14px;
 
   /* Her er komponentene */
-
-  --surface-default: #ffffff;
-  --surface-alt: #fff0ee;
 
   /* todo: Jeg synes ikke denne button-fargen ble så fin. Kan du se om du finner en bedre?
   Ta en titt i colors.css og se om du finner en du vil bruke istedenfor. */

@@ -73,7 +73,7 @@ button {
 .top-bar-logo {
   height: auto;
   height: 24px;
-  color: #c54871;
+  color: var(--hoved-farge);
   width: 90px;
 }
 
@@ -157,7 +157,7 @@ button {
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0;
   border-radius: 5px;
   overflow: hidden;
-  background-color: var(--surface-alt);
+  background-color: var(--bakgrunnsfarge);
 }
 
 .preview-component {
@@ -177,7 +177,7 @@ button {
 /* Forsiden start */
 
 .frontpage-heading {
-  color: var(--hot-pink);
+  color: var(--tittel-farge);
   font-size: var(--font-size-xxl);
   font-weight: 800;
   text-transform: uppercase;
