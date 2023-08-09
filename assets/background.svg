@@ -1,20 +1,23 @@
 <svg id="background-image" xmlns="http://www.w3.org/2000/svg">
   <title>Tenk bakgrunn</title>
   <style>
+
+
+
     .wave-1 {
-      fill: #FF66C433;
+      fill: #a8700033;
     }
 
     .wave-2 {
-      fill: #FF66C433;
+      fill: #045e8d33;
     }
 
     .blob {
-      fill: #CB6CE633;
+      fill: #a8700033;
     }
 
     .background {
-      fill: #fff0ee;
+      fill: #ecf9ec;
     }
   </style>
 
