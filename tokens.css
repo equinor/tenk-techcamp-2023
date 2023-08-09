@@ -12,8 +12,8 @@
   --mulberry: #b74268;
   --mulberry-dark: #702940;
   --fair-pink: #fff0ee;
-  --deep-blush: #e05cad;
   --amethyst: #b564cc;
+  --deep-blush: #e05cad;
   --white: #ffffff;
   --mine-shaft: #333333;
 
@@ -27,8 +27,8 @@
   --cello: #224960;
   --cello-dark: #152d3c;
   --ottoman: #ecf9ec;
-  --venice: #045e8d;
   --pirate-gold: #a87000;
+  --venice: #045e8d;
 
   /* 
     Her er variable-navnene som er brukt i css-en, 
@@ -38,9 +38,9 @@
 
     mulberry med cello
     mulberry-dark med cello-dark
-    fair-pink med ottoman
-    deep-blush med venice
+    fair-pink med ottoman    
     amethyst med pirate-gold
+    deep-blush med venice
 
     Når det gjelder bakgrunns-bildet, så må du erstatte farge-verdiene i `assets/background.svg`,
     den har sin egen interne CSS.
@@ -48,12 +48,12 @@
     Bodil
   */
 
-  --bakgrunnsfarge: var(--ottoman);
+  --bakgrunnsfarge: var(--fair-pink);
   --bakgrunnsfarge-alt: var(--white);
-  --hoved-farge: var(--cello);
-  --hoved-farge-alt: var(--cello-dark);
-  --tittel-farge: var(--venice);
-  --tittel-farge-alt: var(--pirate-gold);
+  --hoved-farge: var(--mulberry);
+  --hoved-farge-alt: var(--mulberry-dark);
+  --tittel-farge: var(--deep-blush);
+  --tittel-farge-alt: var(--amethyst);
   --tekst-farge: var(--mine-shaft);
   --tekst-farge-alt: var(--white);
 

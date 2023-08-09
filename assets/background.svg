@@ -2,22 +2,20 @@
   <title>Tenk bakgrunn</title>
   <style>
 
-
-
     .wave-1 {
-      fill: #a8700033;
+      fill: #b564cc33;
     }
 
     .wave-2 {
-      fill: #045e8d33;
+      fill: #e05cad33;
     }
 
     .blob {
-      fill: #a8700033;
+      fill: #b564cc33;
     }
 
     .background {
-      fill: #ecf9ec;
+      fill: #fff0ee;
     }
   </style>
 
