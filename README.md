@@ -10,10 +10,10 @@ Hei 😊 Så kjekt at du vil hjelpe oss med å bli ferdig med komponentene våre
 1. Klikk på **Use this template**
 2. Velg **Create a new repository**
 
-> [!NOTE]  
-> Maja added content to alt tags so we follow the suggestions we ourselves will make in the workshop 😉
-> Please check my Norwegian!
-
+<!--
+ Maja added content to alt tags so we follow the suggestions we ourselves will make in the workshop 😉
+Please check my Norwegian!
+-->
 <img alt="En dropdown åpnet under knappen «Bruk denne malen»." src="assets/use-this-template-button.webp" width="400">
 
 3. Bruk Owner dropdown menyen til å velge din egen konto
