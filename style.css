@@ -98,23 +98,6 @@ button {
 
 /* Button start */
 
-/*  */
-.button-primary {
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 16px;
-  border-radius: 5px;
-  border: none;
-  padding: var(--button-padding);
-  background-color: var(--hoved-farge);
-  color: var(--tekst-farge-alt);
-  text-decoration: none;
-}
-
-.button-primary:hover {
-  background-color: var(--hoved-farge-alt);
-}
-
 /* Button slutt */
 
 /* Card start */

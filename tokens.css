@@ -5,8 +5,7 @@
 
   Hei på deg 😊
 
-  Her har jeg bare laget mine egne farger. Designerne ville vi skulle bruke grønt og gull, 
-  men jeg liker best rosa, så da brukte jeg det istedenfor.
+  Her har jeg bare laget mine egne farger. Designerne ville vi skulle bruke grønt og gull, men jeg liker best rosa, så da brukte jeg det istedenfor.
   
   NB! Husk at vi ikke bruker disse fargene direkte i CSS-en vår, 
   da blir det vanskelig å lage egne tema som f.eks. dark mode.
@@ -49,16 +48,16 @@
     amethyst med pirate-gold
     deep-blush med venice
 
-    Når det gjelder bakgrunns-bildet, så må du erstatte farge-verdiene i `assets/background.svg`,
-    den har sin egen interne CSS.
+    Når det gjelder bakgrunns-bildet, så må du erstatte farge-verdiene i
+    `assets/background.svg`, den har sin egen interne CSS.
 
     Bodil
 
-    PS! Hvis du er skikkelig rampete kan du lage din egen farge-palett med favoritt-fargene dine, 
-    bare ikke si at det var jeg som sa det 😉
+    PS! Hvis du er skikkelig rampete kan du lage din egen farge-palett med
+    favoritt-fargene dine, bare ikke si at det var jeg som sa det 😉
 
-    Jeg bruker forøvrig https://chir.ag/projects/name-that-color/ til å finne navnet på farger,
-    hvis jeg finner en farge-verdi jeg synes ser fin ut.
+    Jeg bruker forøvrig https://chir.ag/projects/name-that-color/ til å finne
+    navnet på farger, hvis jeg finner en farge-verdi jeg synes ser fin ut.
 
   */
 
@@ -83,16 +82,15 @@
   --font-size-base: 16px;
   --font-size-small: 14px;
 
-  /* Her er komponentene */
-
-  /* todo: Jeg synes ikke denne button-fargen ble så fin. Kan du se om du finner en bedre?
-  Ta en titt i colors.css og se om du finner en du vil bruke istedenfor. */
-
-  --button-padding: 10px 20px;
-
-  --button-primary-background: #007079;
-  --button-primary-background-hover: purple;
-  --button-primary-text: #ffffff;
-
   --border-radius: 4px;
+
+  /* Komponent tokens */
+
+  --button-font-size: var(--font-size-small);
+  --button-line-height: calc(var(--font-size-small) + 2px);
+  --button-border-radius: var(--border-radius);
+  --button-padding: 10px 20px;
+  --button-color: var(--tekst-farge-alt);
+  --button-primary-background-color: var(--hoved-farge);
+  --button-primary-hover-background-color: var(--hoved-farge-alt);
 }
