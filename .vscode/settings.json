@@ -1,6 +1,7 @@
 {
   "git.autofetch": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -26,7 +27,9 @@
   "cSpell.words": [
     "branchen",
     "Codespaces",
+    "dritlei",
     "Equinor",
+    "eventen",
     "forhåndsvise",
     "frontpage",
     "Javascriptet",
@@ -37,6 +40,7 @@
     "stilarket",
     "stylesheet",
     "topbar",
+    "Tudldu",
     "webp",
     "webside",
     "websiden",
@@ -47,5 +51,6 @@
     "htmlEndTagLabels.labelColor": "#cdcdcd"
   },
   "htmlEndTagLabels.labelPrefix": "//",
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "rewrap.autoWrap.enabled": true
 }
