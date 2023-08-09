@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TENK Tech Camp 2023 - Button</title>
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <div class="page">
@@ -27,11 +28,13 @@
           <div class="preview">
             <div class="preview-component">
               <!-- Komponent start -->
-              <button class="button-primary">Click me!</button>
+              <button onclick="myOnClickFunction()" class="button-primary">
+                Click me!
+              </button>
               <!-- Komponent slutt -->
             </div>
             <div class="preview-code">
-              <pre><code>&lt;button class=&quot;button-primary&quot;&gt;Click me!&lt;/button&gt;</code></pre>
+              <pre><code>&lt;button onclick=&quot;myOnClickFunction()&quot; class=&quot;button-primary&quot;&gt;</code></pre>
             </div>
           </div>
         </div>
