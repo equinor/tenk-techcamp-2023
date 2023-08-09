@@ -29,15 +29,23 @@
     "Equinor",
     "forhåndsvise",
     "frontpage",
+    "Javascriptet",
+    "Kodevisning",
     "noen",
     "repoet",
+    "skjermlesere",
+    "stilarket",
+    "stylesheet",
+    "topbar",
     "webp",
     "webside",
+    "websiden",
     "workshoppen"
   ],
   "explorer.sortOrder": "type",
   "workbench.colorCustomizations": {
     "htmlEndTagLabels.labelColor": "#cdcdcd"
   },
-  "htmlEndTagLabels.labelPrefix": "//"
+  "htmlEndTagLabels.labelPrefix": "//",
+  "editor.wordWrap": "on"
 }
