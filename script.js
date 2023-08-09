@@ -1,19 +1,28 @@
 /* 
-Oh, thank goodness you're here 🙏 As you can see below, I created a function
-called myOnClickFunction. It is currently called whenever the "onclick" event fires
-for the button in our button.html file.
 
-I defined another two functions for use in the card component, but I didn't manage to
-add onclick functions to the buttons in card.html... and I couldn't think of good 
-messages to display when those buttons are clicked. PLEASE HELP ME OUT 😭
+  Å, så bra at du er her 🙏 Som du ser under, så har jeg laget en funksjon som
+  heter myOnClickFunction. Den blir kalt hver gang "onclick" eventen fyres av
+  når man klikker på en button-komponent som referer til funksjonen. For å bruke
+  det legger du det bare til som et attributt, slik som dette: 
+
+  <button onclick="myOnClickFunction()" class="button-primary">
+    Klikk meg!
+  </button>
+
+  Jeg laget to funksjoner til som jeg tenkte å bruke i card-komponenten, men
+  fikk ikke tid til å legge til onclick på knappene, og jeg kom heller ikke på
+  en lur melding å vise når man klikker på de. VÆR SÅ SNILL Å HJELPE MEG 😭
+
 */
 
 const myOnClickFunction = () => {
-  alert("Your button was clicked and called a function in script.js!");
-};
+  alert("Knappen ble klikket og kalte en funksjon i script.js!")
+}
+
 const myOkClickFunction = () => {
-  // what can we display for the user when OK is clicked?...
-};
+  // Hva kan vi vise brukerne når de klikker på OK?
+}
+
 const myCancelClickFunction = () => {
-  // what can we display for the user when Cancel is clicked?...
-};
+  // Hva kan vi vise brukerne når de klikker på Avbryt?
+}

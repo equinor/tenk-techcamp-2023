@@ -2,8 +2,14 @@
 
 :root {
   /* 
+
+  Hei på deg 😊
+
+  Her har jeg bare laget mine egne farger. Designerne ville vi skulle bruke grønt og gull, 
+  men jeg liker best rosa, så da brukte jeg det istedenfor.
   
-  Farge-palett med farge navn, husk at vi ikke bruker disse fargene direkte i CSS-en vår, da blir det vanskelig å lage egne tema som f.eks. dark mode
+  NB! Husk at vi ikke bruker disse fargene direkte i CSS-en vår, 
+  da blir det vanskelig å lage egne tema som f.eks. dark mode.
   
   Bodil
   
@@ -18,8 +24,8 @@
   --mine-shaft: #333333;
 
   /* 
-    Kan være noen som synes det ble litt mye rosa 🤔 
-    Jeg laget denne alternative farge-paletten som vi også kan teste ut.
+    Når jeg tenker meg om kan være noen som synes det ble litt mye rosa 🤔 
+    Her er de fargene vi egentlig skulle bruke.
 
     Bodil
    */
@@ -31,8 +37,9 @@
   --venice: #045e8d;
 
   /* 
-    Her er variable-navnene som er brukt i css-en, 
-    prøv å bytte ut verdiene med den alternative fargepaletten og se om det ser bedre ut.
+
+    Huff, nå angrer jeg meg litt. Kanskje vi skulle brukt de opprinnelige fargene likevel.
+    Kunne du vært en engel og byttet ut alle verdiene for meg?
 
     Bytt ut alle referansene under med følgende:
 
@@ -46,6 +53,13 @@
     den har sin egen interne CSS.
 
     Bodil
+
+    PS! Hvis du er skikkelig rampete kan du lage din egen farge-palett med favoritt-fargene dine, 
+    bare ikke si at det var jeg som sa det 😉
+
+    Jeg bruker forøvrig https://chir.ag/projects/name-that-color/ til å finne navnet på farger,
+    hvis jeg finner en farge-verdi jeg synes ser fin ut.
+
   */
 
   --bakgrunnsfarge: var(--fair-pink);

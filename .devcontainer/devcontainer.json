@@ -17,7 +17,8 @@
 		"bierner.github-markdown-preview",
 		"seatonjiang.gitmoji-vscode",
 		"vunguyentuan.vscode-css-variables",
-		"jock.svg"
+		"jock.svg",
+		"stkb.rewrap"
 	]
     }
   },

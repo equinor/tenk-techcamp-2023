@@ -1,4 +1,14 @@
-/* Dette er en CSS kommentar, den blir ignorert av nettleseren */
+/* 
+
+  Hei på deg 😊 
+
+  Får nesten litt dårlig samvittighet av å tenke på at når du leser dette ligger jeg og slasker meg på stranden i syden, men jeg orket bare ikke mer regn ☔️
+
+  Under her ser du at jeg har lagt noen design tokens i en egen fil som heter tokens.css, der er det noe smårusk som må fikses. Hvis du holder nede Cmd på en mac, eller ctrl på en PC eller Chromebook, så kan du klikke på filnavnet så åpner den seg. Helt genialt!
+
+  Bodil
+  
+*/
 
 @import "tokens.css";
 
