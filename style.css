@@ -124,6 +124,8 @@ button {
 
 .main {
   background-color: var(--surface-alt);
+  background-image: url("./assets/background.svg");
+  background-size: auto;
 }
 
 .main-centered {
