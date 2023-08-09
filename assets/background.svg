@@ -2,6 +2,20 @@
   <title>Tenk bakgrunn</title>
   <style>
 
+    <!--
+
+      Her fant jeg ut noe kult. Hvis du kopierer inn fargeverdiene fra
+      tokens.css filen og legger til 33 helt til slutt så blir fargen
+      gjennomsiktig 😎
+
+      33 er hexadecimal-verdien til 20, så det betyr at det er bare 20% av
+      fargen som er synlig. Funker veldig bra til sånne krusseduller og sånt som
+      bare ligger i bakgrunnen.
+
+      Bodil
+
+    -->
+
     .wave-1 {
       fill: #b564cc33;
     }
