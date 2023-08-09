@@ -1,37 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300...800&display=swap");
 
 :root {
-  /* Farge-palett med farge navn */
+  /* 
+  
+  Farge-palett med farge navn, husk at vi ikke bruker disse fargene direkte i CSS-en vår, da blir det vanskelig å lage egne tema som f.eks. dark mode
+  
+  Bodil
+  
+  */
 
-  --mulberry: #c54871;
+  --mulberry: #b74268;
+  --mulberry-dark: #702940;
   --fair-pink: #fff0ee;
-  --hot-pink: #ff66c4;
-  --lavender: #cb6ce6;
+  --deep-blush: #e05cad;
+  --amethyst: #b564cc;
   --white: #ffffff;
   --mine-shaft: #333333;
 
   /* 
-    Her er en alternativ fargepalett
+    Kan være noen som synes det ble litt mye rosa 🤔 
+    Jeg laget denne alternative farge-paletten som vi også kan teste ut.
+
+    Bodil
    */
+
+  --cello: #224960;
+  --cello-dark: #152d3c;
+  --ottoman: #ecf9ec;
+  --venice: #045e8d;
+  --pirate-gold: #a87000;
 
   /* 
     Her er variable-navnene som er brukt i css-en, 
-    prøv å bytte ut verdiene med den alternative fargepaletten og se om det ser bedre ut 
+    prøv å bytte ut verdiene med den alternative fargepaletten og se om det ser bedre ut.
+
+    Bytt ut alle referansene under med følgende:
+
+    mulberry med cello
+    mulberry-dark med cello-dark
+    fair-pink med ottoman
+    deep-blush med venice
+    amethyst med pirate-gold
+
+    Når det gjelder bakgrunns-bildet, så må du erstatte farge-verdiene i `assets/background.svg`,
+    den har sin egen interne CSS.
+
+    Bodil
   */
 
   --bakgrunnsfarge: var(--fair-pink);
   --bakgrunnsfarge-alt: var(--white);
   --hoved-farge: var(--mulberry);
-  --hoved-farge-alt: color-mix(in lch, var(--hoved-farge) 80%, black);
-  --tittel-farge: var(--hot-pink);
-  --tittel-farge-alt: var(--lavender);
+  --hoved-farge-alt: var(--mulberry-dark);
+  --tittel-farge: var(--deep-blush);
+  --tittel-farge-alt: var(--amethyst);
   --tekst-farge: var(--mine-shaft);
   --tekst-farge-alt: var(--white);
 
-  /* Her er komponentene */
-
-  --surface-default: #ffffff;
-  --surface-alt: #fff0ee;
+  /*
+    Typografi her. Laget noen varianter med skriftgrader. 
+  */
 
   --font-family: "Open Sans", sans-serif;
 
@@ -41,16 +69,15 @@
   --font-size-base: 16px;
   --font-size-small: 14px;
 
+  /* Her er komponentene */
+
+  --surface-default: #ffffff;
+  --surface-alt: #fff0ee;
+
   /* todo: Jeg synes ikke denne button-fargen ble så fin. Kan du se om du finner en bedre?
   Ta en titt i colors.css og se om du finner en du vil bruke istedenfor. */
 
   --button-padding: 10px 20px;
-
-  --color-primary: #c54871;
-  --color-primary-darker: color-mix(in lch, var(--color-primary) 80%, black);
-
-  --color-text-on-dark: white;
-  --color-text-on-light: #333;
 
   --button-primary-background: #007079;
   --button-primary-background-hover: purple;

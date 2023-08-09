@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"); */
+/* Dette er en CSS kommentar, den blir ignorert av nettleseren */
 
 @import "tokens.css";
 
@@ -88,6 +88,7 @@ button {
 
 /* Button start */
 
+/*  */
 .button-primary {
   cursor: pointer;
   font-size: 14px;
@@ -101,7 +102,7 @@ button {
 }
 
 .button-primary:hover {
-  background-color: var(--color-primary-darker);
+  background-color: var(--hoved-farge-alt);
 }
 
 /* Button slutt */
