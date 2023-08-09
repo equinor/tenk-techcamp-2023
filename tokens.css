@@ -1,11 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300...800&display=swap");
+
 :root {
+  /* Farge-palett med farge navn */
+
+  --mulberry: #c54871;
+  --fair-pink: #fff0ee;
+  --hot-pink: #ff66c4;
+  --lavender: #cb6ce6;
+  --white: #ffffff;
+  --mine-shaft: #333333;
+
+  /* 
+    Her er en alternativ fargepalett
+   */
+
+  /* 
+    Her er variable-navnene som er brukt i css-en, 
+    prøv å bytte ut verdiene med den alternative fargepaletten og se om det ser bedre ut 
+  */
+
+  --bakgrunnsfarge: var(--fair-pink);
+  --bakgrunnsfarge-alt: var(--white);
+  --hoved-farge: var(--mulberry);
+  --hoved-farge-alt: color-mix(in lch, var(--hoved-farge) 80%, black);
+  --tittel-farge: var(--hot-pink);
+  --tittel-farge-alt: var(--lavender);
+  --tekst-farge: var(--mine-shaft);
+  --tekst-farge-alt: var(--white);
+
+  /* Her er komponentene */
+
   --surface-default: #ffffff;
   --surface-alt: #fff0ee;
 
-  --font-family: Lato, sans-serif;
+  --font-family: "Open Sans", sans-serif;
 
+  --font-size-xxl: 50px;
+  --font-size-xl: 39px;
+  --font-size-large: 21px;
   --font-size-base: 16px;
-  --line-height-base: 20px;
   --font-size-small: 14px;
 
   /* todo: Jeg synes ikke denne button-fargen ble så fin. Kan du se om du finner en bedre?
@@ -13,8 +46,8 @@
 
   --button-padding: 10px 20px;
 
-  --color-primary: #C54871;
-  --color-primary-darker: hsl(340, 52%, 43%);
+  --color-primary: #c54871;
+  --color-primary-darker: color-mix(in lch, var(--color-primary) 80%, black);
 
   --color-text-on-dark: white;
   --color-text-on-light: #333;

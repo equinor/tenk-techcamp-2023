@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"); */
+
 @import "tokens.css";
 
 html {
   font-family: var(--font-family);
+  color: var(--tekst-farge);
   box-sizing: border-box;
 }
 
@@ -16,11 +18,75 @@ button {
   font-family: inherit;
 }
 
+:where(a:any-link) {
+  color: var(--hoved-farge);
+}
+
+:where(a:hover) {
+  color: var(--hoved-farge-alt);
+}
+
+/* Basic side-oppsett start */
+
+.page {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.main {
+  background-color: var(--bakgrunnsfarge);
+  background-image: url("./assets/background.svg");
+  background-size: auto;
+}
+
+.main-centered {
+  background-color: var(--bakgrunnsfarge);
+  background-image: url("./assets/background.svg");
+  background-size: auto;
+  display: grid;
+  place-items: center;
+}
+
 .content {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
+
+/* Basic side-oppsett slutt */
+
+/* Top-bar start */
+
+.top-bar {
+  background-color: var(--surface-default);
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 1px solid #dcdcdc;
+  min-height: 64px;
+  position: sticky;
+  top: 0;
+}
+
+.top-bar-logo {
+  height: auto;
+  height: 24px;
+  color: #c54871;
+  width: 90px;
+}
+
+.top-bar-text {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--mine-shaft);
+}
+
+/* Top-bar slutt */
+
+/* Button start */
 
 .button-primary {
   cursor: pointer;
@@ -29,8 +95,8 @@ button {
   border-radius: 5px;
   border: none;
   padding: var(--button-padding);
-  background-color: var(--color-primary);
-  color: var(--color-text-on-dark);
+  background-color: var(--hoved-farge);
+  color: var(--tekst-farge-alt);
   text-decoration: none;
 }
 
@@ -38,6 +104,9 @@ button {
   background-color: var(--color-primary-darker);
 }
 
+/* Button slutt */
+
+/* Card start */
 .card {
   background-color: #fff;
   border-radius: 5px;
@@ -68,6 +137,19 @@ button {
   display: flex;
   gap: 12px;
 }
+/* Card slutt */
+
+/* Component visning start */
+
+.heading-xl {
+  font-size: var(--font-size-xl);
+  color: var(--tittel-farge-alt);
+}
+
+.heading-large {
+  font-size: var(--font-size-large);
+  color: var(--tittel-farge-alt);
+}
 
 .preview {
   border: 1px solid hsla(203, 50%, 30%, 0.15);
@@ -89,46 +171,21 @@ button {
   padding: 10px 20px;
 }
 
-/* Basic side-oppsett */
+/* Component visning slutt */
 
-.page {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr;
-}
+/* Forsiden start */
 
-.top-bar {
-  background-color: var(--surface-default);
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  padding: 0 24px;
-  border-bottom: 1px solid #dcdcdc;
-  min-height: 64px;
-  position: sticky;
-  top: 0;
-}
-
-.top-bar-logo {
-  height: auto;
-  height: 24px;
-  color: #c54871;
-  width: 90px;
-}
-
-.top-bar-text {
+.frontpage-heading {
+  color: var(--hot-pink);
+  font-size: var(--font-size-xxl);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   margin: 0;
-  font-size: 24px;
-  font-weight: 300;
 }
 
-.main {
-  background-color: var(--surface-alt);
-  background-image: url("./assets/background.svg");
-  background-size: auto;
+.frontpage-text {
+  font-size: var(--font-size-large);
 }
 
-.main-centered {
-  display: grid;
-  place-items: center;
-}
+/* Forsiden slutt */
