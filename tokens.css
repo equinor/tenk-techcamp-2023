@@ -91,6 +91,6 @@
   --button-border-radius: var(--border-radius);
   --button-padding: 10px 16px;
   --button-color: var(--tekst-farge-alt);
-  --button-primary-background-color: var(--hoved-farge);
-  --button-primary-hover-background-color: var(--hoved-farge-alt);
+  --button-primary-bg-color: var(--hoved-farge);
+  --button-primary-hover-bg-color: var(--hoved-farge-alt);
 }
