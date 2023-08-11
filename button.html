@@ -11,7 +11,7 @@
       Dette er head-seksjonen – den inneholder informasjon til nettleseren, som f.eks. tittelen som vises i en fane eller et bokmerke, men som ikke vises direkte på siden.
       Husk å endre tittelen så det ikke står «Document» når du er ferdig.
     -->
-    <title>TENK Tech Camp 2023</title>
+    <title>TENK Tech Camp 2023 - Button</title>
     <!--
       Dette er stilarket til websiden, det er der vi bestemmer hvordan designet skal se ut.
     -->
@@ -31,22 +31,30 @@
         </svg>
         <p class="top-bar-text">Tech Camp 2023</p>
       </div>
-      <main class="main-centered">
+      <main class="main">
         <div class="content">
-          <h1 class="frontpage-heading">Bodils komponenter</h1>
-          <p class="frontpage-text">
-            Her er noen komponenter jeg har laget i dag:
-            <!-- 
-              Det vil si, jeg ble jo ikke helt ferdig 🙄 Håper du får gjort det
-              jeg ikke kom i mål med så ikke sjefen blir sur. 
-            -->
+          <h1 class="heading-xl">Button</h1>
+          <p class="description">
+            Eksempel på en card komponent. Kopier koden for å bruke den på siden
+            din.
           </p>
-          <ul class="frontpage-text">
-            <li><a href="button.html">Button</a></li>
-            <li><a href="card.html">Card</a></li>
-          </ul>
+          <h2 class="heading-large">Button primary</h2>
+          <div class="preview">
+            <div class="preview-component">
+              <!-- Button komponenten skal inn etter denne kommentaren -->
+              <button class="button-primary">Klikk meg!</button>
+              <!-- Button komponenten slutter før denne kommentaren -->
+            </div>
+            <div class="preview-code">
+              <pre><code>&lt;button class=&quot;button-primary&quot;&gt;Klikk meg!&lt;/button&gt;</code></pre>
+            </div>
+          </div>
         </div>
       </main>
     </div>
+    <!--
+      Dette er Javascriptet til websiden.
+    -->
+    <script src="script.js"></script>
   </body>
 </html>
